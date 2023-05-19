@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    public bool hasKey;
     public GameObject Victory;
     public GameObject gameOver;
 

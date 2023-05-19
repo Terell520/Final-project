@@ -254,7 +254,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemName: Key
-  itemValue: 0
+  itemValue: 1
 --- !u!136 &162714006
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2480,7 +2480,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc2e4d4d6f03e234b99693e93853cd99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hasKey: 1
+  hasKey: 0
 --- !u!65 &1717369013
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2682,7 +2682,7 @@ MonoBehaviour:
   mainCam: {fileID: 963194227}
   itemText: {fileID: 832795154}
   lookingAt: nothing!
-  hasKey: 1
+  hasKey: 0
 --- !u!143 &1754888967
 CharacterController:
   m_ObjectHideFlags: 0
@@ -2730,6 +2730,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a50ee5f4ef55e041b7cdae32ae9fa19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hasKey: 0
   Victory: {fileID: 0}
   gameOver: {fileID: 0}
   timerSet: 20

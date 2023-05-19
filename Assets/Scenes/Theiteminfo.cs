@@ -29,7 +29,7 @@ public class Theiteminfo : MonoBehaviour
 
     void OnMouseDown()
     {
-        //playerScript.hasKey = true;
+        playerScript.hasKey = true;
         Destroy(gameObject);
     }
 }

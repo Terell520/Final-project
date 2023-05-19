@@ -5,12 +5,11 @@ using UnityEngine;
 public class Gate : MonoBehaviour
 {
     public bool hasKey = false;
-
-    CharacterController playerScript;
+    Soniccontrol playerScript;
     // Start is called before the first frame update
     void Start()
     {
-        playerScript = GameObject.Find("Sonic").GetComponent<CharacterController>();
+        playerScript = GameObject.Find("Sonic").GetComponent<Soniccontrol>();
     }
 
     // Update is called once per frame
@@ -21,8 +20,9 @@ public class Gate : MonoBehaviour
 
     void OnMouseDown()
     {
-        if (hasKey == true)
+        
         {
+            if (playerScript.hasKey == true)
             Destroy(gameObject);
         }
     }
